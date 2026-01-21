@@ -29,9 +29,11 @@ url:  "https://robdiggle.github.io"
 github_username:  RobDiggle
 
 # Build settings
-remote_theme: tareqdandachi/jekyll-theme-journal
+remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
+  - jekyll-feed
   - jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
