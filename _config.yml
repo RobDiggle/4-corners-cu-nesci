@@ -24,15 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Notes on building a life abroad: jiu-jitsu, software/data engineering, 
   and the long grind into the unknown. Join me on my journey into the new, 
   uncharted waters of the world of tech. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/4-corners-cu-nesci"
+url:  "https://robdiggle.github.io"
+github_username:  RobDiggle
 
 # Build settings
-theme: jekyll-theme-minimal
+remote_theme: tareqdandachi/jekyll-theme-journal
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
